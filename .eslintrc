@@ -1,0 +1,58 @@
+{
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {},
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js"
+      }
+    }
+  },
+  "rules": {
+    // Plugins
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": "off",
+
+    "prettier/prettier": "off",
+
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": "off",
+    // Possible Errors
+
+    // Best Practices
+    "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+
+    // Variables
+    "no-shadow": "off",
+
+    // Node.js and CommonJS
+
+    // Stylistic Issues
+    "function-paren-newline": "off",
+    "max-len": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-underscore-dangle": "off",
+    "object-curly-newline": ["error", { "consistent": true }],
+
+    // JS.Next
+  }
+}

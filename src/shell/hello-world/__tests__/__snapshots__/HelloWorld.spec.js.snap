@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld should render an initial component 1`] = `
+.emotion-0 {
+  color: #222;
+}
+
+<div>
+  <div
+    id="hello-world"
+  >
+    <h1
+      class="emotion-0 emotion-1"
+    >
+      Hello
+      , 
+      World
+      !
+    </h1>
+  </div>
+</div>
+`;
