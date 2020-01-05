@@ -43,6 +43,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+
 export const Basic = () => {
   const classes = useStyles();
   const b$ = useSelector(state => state.crudOperations.basic);
@@ -52,7 +53,6 @@ export const Basic = () => {
   return (
     <div id="basic">
       <Typography>CRUD Operations - Basic</Typography>
-
       <TextField
         label="Primary"
         value={b$.addData.primary}

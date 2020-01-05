@@ -17,8 +17,7 @@ const HelloWorld = () => {
   return (
     <div id="hello-world">
       <Title>{hello}, {world}!</Title>
-      <Link to="sort-filter-list">goto new component</Link>
-
+      <Link to="/crud-operations/basic">Goto Component</Link>
     </div>
   );
 };
