@@ -3,8 +3,8 @@ import { Route, Switch } from 'react-router';
 import loadable from '@loadable/component'
 import { createBrowserHistory } from 'history';
 
-import Home from '~/home/Home';
-import NotFound from '~/not-found/NotFound';
+import Home from '~/containers/home/Home';
+import NotFound from '~/containers/not-found/NotFound';
 
 export const history = createBrowserHistory();
 
@@ -15,12 +15,12 @@ const Router = () => (
 
       <Route
         path="/hello-world"
-        component={loadable(() => import('~/shell/hello-world/HelloWorld'))}
+        component={loadable(() => import('~/containers/hello-world/HelloWorld'))}
       />
       <Route
         path="/crud-operations/basic"
         component={loadable(() =>
-          import('~/shell/crud-operations/basic/Basic'),
+          import('~/containers/Basic/basic/Basic'),
         )}
       />
 
