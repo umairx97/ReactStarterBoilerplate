@@ -15,11 +15,7 @@
     "_codecov": "codecov",
     "_firebase": "firebase"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shyam-Chen/React-Play.git"
-  },
-  "author": "Shyam Chen",
+  "author": "Umair Ahmed",
   "license": "MIT",
   "dependencies": {
     "@apollo/react-hooks": "3.0.1",

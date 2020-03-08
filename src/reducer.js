@@ -1,6 +1,6 @@
 import { handleActions } from 'redux-actions';
 
-import assignDeep from '~/shared/assign-deep';
+import assignDeep from '~/utils/assign-deep';
 
 import { INITIAL, SET_DATA } from './constants';
 

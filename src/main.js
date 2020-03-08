@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import { configureStore } from '~/core/store';
-import nestPairs from '~/shared/nest-pairs';
+import nestPairs from '~/utils/nest-pairs';
 import Routes, { history } from '~/core/Router';
 
 const store = configureStore();
